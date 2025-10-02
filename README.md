@@ -39,3 +39,17 @@ A full implementation of the **Othello (Reversi)** board game in Python, featuri
 
 ```bash
 pip install pygame
+
+git clone [https://github.com/YOUR_USERNAME/Othello-AI-Minimax-Expectimax.git](https://github.com/YOUR_USERNAME/Othello-AI-Minimax-Expectimax.git)
+cd Othello-AI-Minimax-Expectimax
+
+python main.py
+
+📂 File Structure
+File	Description
+main.py	Pygame GUI setup, game loop, and mode selection menu.
+game.py	Game mechanics, turn switching, and victory condition logic.
+board.py	Othello board representation, valid move calculation, and scoring.
+player.py	Defines different player agents (RandomPlayer, MinimaxPlayer, MCTSPlayer, etc.).
+minimax.py	Minimax algorithm with Alpha-Beta Pruning and evaluation function.
+expectimax.py	Expectimax algorithm and evaluation function.
