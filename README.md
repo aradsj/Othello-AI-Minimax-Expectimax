@@ -1,8 +1,3 @@
----
-
-## ۵. Othello-AI-Minimax-Expectimax
-
-```markdown
 # ♟️ Othello-AI-Minimax-Expectimax
 
 A full implementation of the **Othello (Reversi)** board game in Python, featuring multiple sophisticated **Artificial Intelligence (AI)** agents.
@@ -37,13 +32,19 @@ A full implementation of the **Othello (Reversi)** board game in Python, featuri
 
 ### Installation
 
-```bash
 pip install pygame
+
+Execution
+Clone the repository:
+
 
 git clone [https://github.com/YOUR_USERNAME/Othello-AI-Minimax-Expectimax.git](https://github.com/YOUR_USERNAME/Othello-AI-Minimax-Expectimax.git)
 cd Othello-AI-Minimax-Expectimax
+Run the game:
+
 
 python main.py
+The Pygame window will launch, allowing you to select the AI agent mode.
 
 📂 File Structure
 File	Description
